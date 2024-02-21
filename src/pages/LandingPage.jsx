@@ -2,14 +2,14 @@ import axios from "axios";
 import ProductList from "../components/ProductList";
 import { useQuery } from "@tanstack/react-query";
 
-const fetchingProductData = async () => {
-  const response = await axios.get(`http://localhost:3000/products`);
+const fetchingProductData = async ({ queryKey }) => {
+  const response = await axios.get(`http://localhost:3000/${queryKey[0]}`);
   return response.data;
 };
 
 const LandingPage = () => {
   const { data, error, isLoading } = useQuery({
-    queryKey: ["all-products"],
+    queryKey: ["products"],
     queryFn: fetchingProductData,
   });
 
