@@ -1,0 +1,70 @@
+{
+  "products": [
+    {
+      "id": "iphone14",
+      "name": "iPhone 14",
+      "picture": "https://m.media-amazon.com/images/I/611mRs-imxL._SX679_.jpg",
+      "price": 799,
+      "storage": "128GB",
+      "color": "Red",
+      "display": "6.1-inch Super Retina XDR display",
+      "camera": "Dual-camera system (12MP Wide and 12MP Ultra Wide)",
+      "battery": "Up to 20 hours of video playback"
+    },
+    {
+      "id": "iphone14plus",
+      "name": "iPhone 14 Plus",
+      "picture": "https://m.media-amazon.com/images/I/71emcsxsRPL._SX679_.jpg",
+      "price": 899,
+      "storage": "128GB",
+      "color": "Yellow",
+      "display": "6.7-inch Super Retina XDR display",
+      "camera": "Dual-camera system (12MP Wide and 12MP Ultra Wide)",
+      "battery": "Up to 28 hours of video playback"
+    },
+    {
+      "id": "iphone15",
+      "name": "iPhone 15",
+      "picture": "https://m.media-amazon.com/images/I/71657TiFeHL._SL1500_.jpg",
+      "price": 899,
+      "storage": "128GB",
+      "color": "Black",
+      "display": "6.1-inch OLED display (rumored)",
+      "camera": "Triple-camera system (rumored to be improved)",
+      "battery": "Up to 25 hours of video playback (estimated based on rumors)"
+    },
+    {
+      "id": "iphone15plus",
+      "name": "iPhone 15 Plus",
+      "picture": "https://m.media-amazon.com/images/I/71PjpS59XLL._SL1500_.jpg",
+      "price": 999,
+      "storage": "128GB",
+      "color": "Blue",
+      "display": "6.7-inch OLED display (rumored)",
+      "camera": "Triple-camera system (rumored to be improved)",
+      "battery": "Up to 28 hours of video playback (estimated based on rumors)"
+    },
+    {
+      "id": "iphone15pro",
+      "name": "iPhone 15 Pro",
+      "picture": "https://m.media-amazon.com/images/I/81CgtwSII3L._SL1500_.jpg",
+      "price": 1099,
+      "storage": "256GB",
+      "color": "Natural Titanium",
+      "display": "6.1-inch OLED display (rumored to be ProMotion)",
+      "camera": "Quad-camera system (rumored to be improved)",
+      "battery": "Up to 30 hours of video playback (estimated based on rumors)"
+    },
+    {
+      "id": "iphone15promax",
+      "name": "iPhone 15 Pro Max",
+      "picture": "https://m.media-amazon.com/images/I/81fxjeu8fdL._SL1500_.jpg",
+      "price": 1199,
+      "storage": "256GB",
+      "color": "Blue Titanium",
+      "display": "6.7-inch OLED display (rumored to be ProMotion)",
+      "camera": "Quad-camera system (rumored to be improved)",
+      "battery": "Up to 32 hours of video playback (estimated based on rumors)"
+    }
+  ]
+}
