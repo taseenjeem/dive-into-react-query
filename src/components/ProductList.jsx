@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
+
 const ProductList = ({ productData }) => {
-  const { name, picture, price, storage, color, display, camera, battery } =
+  const { id, name, picture, price, storage, color, display, camera, battery } =
     productData;
 
   return (
     <>
-      <div className="mx-auto px-5">
+      <Link to={`/product-details/${id}`} className="mx-auto px-5">
         <div className="max-w-lg cursor-pointer rounded-lg bg-slate-200 p-2 shadow duration-150 hover:scale-105 hover:shadow-md">
           <img
             className="w-full rounded-lg object-cover object-center"
@@ -42,7 +44,7 @@ const ProductList = ({ productData }) => {
             </div>
           </div>
         </div>
-      </div>
+      </Link>
     </>
   );
 };
