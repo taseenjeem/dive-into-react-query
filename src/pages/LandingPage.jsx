@@ -1,6 +1,7 @@
 import axios from "axios";
 import ProductList from "../components/ProductList";
 import { useQuery } from "@tanstack/react-query";
+import { Link } from "react-router-dom";
 
 const fetchingProductData = async ({ queryKey }) => {
   const response = await axios.get(`http://localhost:3000/${queryKey[0]}`);
@@ -34,8 +35,14 @@ const LandingPage = () => {
   return (
     <>
       <div className="mb-20">
-        <div className="my-5">
+        <div className="my-5 flex justify-center items-center gap-10">
           <h1 className="text-center text-2xl font-bold">Product List</h1>
+          <Link
+            to={`/add-new-product`}
+            className="bg-blue-400 px-4 py-2 rounded-md text-white hover:bg-blue-500 duration-200"
+          >
+            Add New Product
+          </Link>
         </div>
         <div className="grid lg:grid-cols-2 space-y-10">
           {data?.map((item) => (

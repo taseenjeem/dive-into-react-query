@@ -65,6 +65,50 @@
       "display": "6.7-inch OLED display (rumored to be ProMotion)",
       "camera": "Quad-camera system (rumored to be improved)",
       "battery": "Up to 32 hours of video playback (estimated based on rumors)"
+    },
+    {
+      "id": "db61844a-08ef-49eb-8bc9-7cbd118603a1",
+      "name": "ifone 69",
+      "picture": "https://www.startech.com.bd/image/cache/catalog/mobile/realme/c67/c67-black-rock-500x500.webp",
+      "price": "420",
+      "storage": "512 gb",
+      "color": "red",
+      "display": "Super Amoled",
+      "camera": "3 ta",
+      "battery": "5000 mah"
+    },
+    {
+      "id": "6227f922-511e-4148-b68c-4cb959903713",
+      "name": "Dj fone",
+      "picture": "https://www.startech.com.bd/image/cache/catalog/mobile/samsung/galaxy-a13/galaxy-a13-001-500x500.webp",
+      "price": "550",
+      "storage": "300 GB",
+      "color": "red",
+      "display": "Amoled",
+      "camera": "nice",
+      "battery": "5000 mah"
+    },
+    {
+      "id": "b010aef6-c50b-45b6-bd30-96ce357d2890",
+      "name": "Shonar Bangla",
+      "picture": "https://www.startech.com.bd/image/cache/catalog/mobile/samsung/galaxy-m12/galaxy-m12-001-500x500.webp",
+      "price": "100",
+      "storage": "100",
+      "color": "red",
+      "display": "red",
+      "camera": "3",
+      "battery": "3000"
+    },
+    {
+      "id": "dc811e93-b283-47f3-bd64-d365b2f2d474",
+      "name": "asdfasdf",
+      "picture": "https://www.startech.com.bd/image/cache/catalog/mobile/samsung/galaxy-m12/galaxy-m12-001-500x500.webp",
+      "price": "333333333333",
+      "storage": "33333333333",
+      "color": "3333333333",
+      "display": "3333333",
+      "camera": "3333333",
+      "battery": "3333333"
     }
   ]
 }
